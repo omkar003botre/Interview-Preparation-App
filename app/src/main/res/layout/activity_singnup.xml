@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+android:background="@drawable/singnup"
+    >
+    <androidx.cardview.widget.CardView
+        android:layout_margin="64sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="30sp"
+        card_view:cardElevation="8sp"
+        android:background="#fff">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24sp">
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Register"
+                android:textSize="36sp"
+
+                android:textAlignment="center"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:text="Email id"
+                android:layout_marginTop="25sp"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="48sp"
+                android:inputType="textEmailAddress"
+                android:id="@+id/activity_main_usernameEditText"
+                android:text="'@gmail.com"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:text="Create Password"
+android:layout_marginTop="25sp"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="48sp"
+                android:inputType="textPassword"
+                android:id="@+id/pass"
+                android:text="password"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="Confirm Password"
+                android:layout_marginTop="25sp"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="48sp"
+                android:inputType="textPassword"
+                android:id="@+id/confirmpasscode"
+                android:text="Password"
+
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/crateac"
+                android:text="Register"
+                android:textSize="22sp"/>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

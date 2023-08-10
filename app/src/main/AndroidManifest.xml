@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- For android.media.audiofx.Visualizer -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <!--
+ We will request access to the camera, saying we require a camera
+     of some sort but not one with autofocus capability.
+    -->
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/applogoicon"
+        android:label="CourseForCoders"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Testforcoders"
+        tools:targetApi="31">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".record"
+            android:exported="false" />
+        <activity
+            android:name=".Startpreparation"
+            android:exported="false" />
+        <activity
+            android:name=".phpinterview"
+            android:exported="false" />
+        <activity
+            android:name=".dsinterview"
+            android:exported="false" />
+        <activity
+            android:name=".dbmsinterview"
+            android:exported="false" />
+        <activity
+            android:name=".jsinterview"
+            android:exported="false" />
+        <activity
+            android:name=".pythoninterview"
+            android:exported="false" />
+        <activity
+            android:name=".javainterview"
+            android:exported="false" />
+        <activity
+            android:name=".cppquestioninter"
+            android:exported="false" />
+        <activity
+            android:name=".validateotp"
+            android:exported="false" />
+        <activity
+            android:name=".forgotpassword"
+            android:exported="false" />
+        <activity
+            android:name=".singnup"
+            android:exported="false" />
+        <activity
+            android:name=".pageafterlogin"
+            android:exported="false" />
+        <activity
+            android:name=".studycourse"
+            android:exported="false" />
+        <activity
+            android:name=".interview"
+            android:exported="false" />
+        <activity
+            android:name=".cinterview"
+            android:exported="false" />
+        <activity
+            android:name=".Spalshscreen"
+            android:exported="true"
+            android:theme="@style/SplachScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".interviewprep"
+            android:exported="false"
+            >
+
+        </activity>
+
+    </application>
+
+</manifest>

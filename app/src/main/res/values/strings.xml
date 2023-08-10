@@ -1,0 +1,14 @@
+<resources>
+    <string name="login_form_title">Login</string>
+    <string name="login_form_password">Password</string>
+    <string name="login_form_login">LOGIN</string>
+    <string name="clang">C Language</string>
+    <string name="start">Start Test</string>
+    <string name="cpp">C++</string>
+    <string name="java">Java</string>
+    <string name="python">Python</string>
+    <string name="aiml">Artificial Intelligence and Machine Learning</string>
+    <string name="ds">Data Science</string>
+    <!-- Strings used for fragments for navigation -->
+
+</resources>
